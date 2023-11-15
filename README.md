@@ -5,3 +5,7 @@ Concepts used
 -> handling crud operations using controllers and in memory database  
 -> usage of swagger ui for testing  
 -> entity framework core as ORM for creation of tables and database from model using sqlite database  
+
+## API Documentation
+
+[API Documentation](https://documenter.getpostman.com/view/22540494/2s9YXnzJxc)
