@@ -1,9 +1,10 @@
 ﻿using FormulaOneApp.Models;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 
 namespace FormulaOneApp.Data
 {
-    public class AppDbcontext : DbContext
+    public class AppDbcontext : IdentityDbContext
     {
         public DbSet<Team> Teams { get; set; }
 
